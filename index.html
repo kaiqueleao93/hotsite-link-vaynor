@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reúna pedidos, WhatsApp, redes sociais e serviços em uma página com a identidade do seu negócio. Experimente a demonstração da Vaynor.">
+  <meta name="theme-color" content="#2845D6">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Vaynor — Todos os caminhos do seu negócio">
+  <meta property="og:description" content="Reúna os canais do seu negócio em uma página com a sua identidade. Experimente a demonstração da Vaynor.">
+  <title>Vaynor — Todos os caminhos do seu negócio</title>
+  <link rel="icon" href="assets/img/logo.webp" type="image/webp">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/config/brand.js"></script>
+  <script defer src="js/config/app.js"></script>
+  <script defer src="js/config/pricing.js"></script>
+  <script defer src="js/data/examples.js"></script>
+  <script defer src="js/lib/dom.js"></script>
+  <script defer src="js/lib/editor-state.js"></script>
+  <script defer src="js/lib/icons.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-links" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-2 2M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l2-2"/></symbol>
+    <symbol id="i-store" viewBox="0 0 24 24"><path d="m3 9 2-6h14l2 6M3 9v2a3 3 0 0 0 6 0 3 3 0 0 0 6 0 3 3 0 0 0 6 0V9M5 14v7h14v-7M9 21v-5h6v5M3 9h18"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 11a9 9 0 0 1-9 9H4l-2 2 1-7a9 9 0 1 1 18-4Z"/><path d="M8 8h8M8 12h5"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V4h8v3M3 12a24 24 0 0 0 18 0M10 13h4"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5ZM20 3v4M18 5h4"/></symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18h1a2 2 0 0 0 1-4 2 2 0 0 1 1-4h3a3 3 0 0 0 3-3c0-4-4-7-9-7Z"/><path d="M7 9h.01M10 6h.01M15 6h.01"/></symbol>
+    <symbol id="i-devices" viewBox="0 0 24 24"><rect x="3" y="3" width="12" height="12" rx="2"/><path d="M8 21h6M11 15v6"/><rect x="16" y="10" width="6" height="11" rx="1"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 5h4M11 19h2"/></symbol>
+    <symbol id="i-desktop" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 14 6-6 6 6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 10 6 6 6-6"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7M14 10v7"/></symbol>
+    <symbol id="i-reset" viewBox="0 0 24 24"><path d="M3 11a9 9 0 1 1 2 7M3 4v7h7"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 3h7v7M21 3 10 14M10 3H3v18h18v-7"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Vaynor — início">
+        <span class="brand-image"><img src="assets/img/logo.webp" alt="Vaynor" width="1254" height="1254"></span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#demonstracao">Experimente</a>
+        <a href="#planos">Planos</a>
+        <a href="#perguntas">Perguntas</a>
+      </nav>
+      <div class="header-actions">
+        <a class="button small secondary header-login" href="https://link.vaynor.com.br/login" data-login>Entrar</a>
+        <button type="button" class="button small header-cta" data-convert>Guardar meu rascunho</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>SEU NEGÓCIO, BEM CONECTADO</p>
+        <h1 id="hero-title">Um único link. <span>Todos os caminhos</span><br>para o seu negócio.</h1>
+        <p class="hero-description">Reúna pedidos, WhatsApp, redes sociais e serviços em uma página com a sua identidade. Experimente o editor e veja como ela pode ficar.</p>
+        <div class="hero-actions">
+          <a class="button" href="#demonstracao" data-start>Experimentar agora</a>
+          <a class="button secondary" href="#demonstracao" data-watch><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-play"></use></svg>Ver demonstração</a>
+        </div>
+        <p class="quiet hero-note"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"></use></svg>Experimente sem login. Nenhuma página será publicada.</p>
+      </div>
+      <div class="hero-art" aria-label="Prévia de uma página de links personalizada">
+        <p class="art-label"><span class="mini-mark"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-links"></use></svg></span>Uma página. O seu jeito.</p>
+        <div class="hero-phone phone-frame">
+          <div class="phone-top"><span>9:41</span><span aria-hidden="true">••• ▰</span></div>
+          <div id="hero-preview" class="page-preview compact" data-style="rounded">
+            <p class="preview-avatar" aria-hidden="true">BB</p>
+            <p class="preview-name">Bifrost Burger</p>
+            <p class="preview-description">Seu próximo banquete começa aqui. Peça, fale com a gente e acompanhe as novidades.</p>
+            <div class="preview-links">
+              <a class="preview-link" href="https://bifrostburger.saipos.com/home" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-store"></use></svg><span><strong>Faça seu pedido</strong><small>Nosso cardápio na palma da mão</small></span></a>
+              <a class="preview-link" href="https://www.instagram.com/bifrostburger/" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-instagram"></use></svg><span><strong>Siga no Instagram</strong><small>Novidades que dão fome</small></span></a>
+              <a class="preview-link" href="https://wa.me/5511940822165" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-message"></use></svg><span><strong>Converse no WhatsApp</strong><small>Vamos ajudar você</small></span></a>
+            </div>
+            <p class="preview-brand"><span class="preview-signature">Feito com <span class="brand-image"><img src="assets/img/logo.webp" alt="Vaynor" width="1254" height="1254"></span></span><span>Exemplo demonstrativo</span></p>
+          </div>
+          <div class="phone-bottom" aria-hidden="true"></div>
+        </div>
+        <div class="floating-card"><span class="floating-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-palette"></use></svg></span><div><strong>Sua identidade</strong><div class="mini-colors" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div><span class="float-check"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"></use></svg></span></div>
+        <p class="art-caption" id="hero-caption">Prévia do editor · Bifrost Burger</p>
+      </div>
+    </section>
+
+    <section class="demo-section" id="demonstracao" aria-labelledby="demo-title">
+      <div class="container">
+        <div class="section-top">
+          <div><p class="eyebrow">MENOS IMAGINAR. MAIS EXPERIMENTAR.</p><h2 id="demo-title" tabindex="-1">Sua página começa aqui.</h2><p>Mude um detalhe. Veja a diferença na hora.</p></div>
+          <span class="badge"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-info"></use></svg>Demonstração local</span>
+        </div>
+        <p id="chosen-plan" class="chosen-plan" role="status" hidden></p>
+        <div class="demo-toolbar">
+          <div class="sample-picker" role="group" aria-label="Escolher exemplo">
+            <button type="button" data-example="restaurant" aria-pressed="true"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-store"></use></svg>Restaurante</button>
+            <button type="button" data-example="professional" aria-pressed="false"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-briefcase"></use></svg>Profissional</button>
+            <button type="button" data-example="creator" aria-pressed="false"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-play"></use></svg>Criador</button>
+          </div>
+          <button type="button" class="text-button" id="reset-demo"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-reset"></use></svg>Restaurar exemplo inicial</button>
+        </div>
+        <div class="workspace">
+          <section class="editor" aria-labelledby="editor-title">
+            <div class="editor-heading"><span class="editor-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-links"></use></svg></span><div><h3 id="editor-title">Editor da página</h3><span class="quiet">Ajuste os detalhes do seu negócio</span></div></div>
+            <div class="editor-tabs" role="tablist" aria-label="Configurações da página">
+              <button id="tab-profile" type="button" role="tab" aria-selected="true" aria-controls="panel-profile" tabindex="0" data-tab="profile">Página</button>
+              <button id="tab-links" type="button" role="tab" aria-selected="false" aria-controls="panel-links" tabindex="-1" data-tab="links">Links <span id="link-count">3</span></button>
+              <button id="tab-style" type="button" role="tab" aria-selected="false" aria-controls="panel-style" tabindex="-1" data-tab="style">Estilo</button>
+            </div>
+            <div class="editor-panel" id="panel-profile" role="tabpanel" aria-labelledby="tab-profile">
+              <div class="field"><label for="business-name">Nome do negócio</label><input id="business-name" maxlength="60" autocomplete="organization" value="Bifrost Burger"><span class="field-hint">Até 60 caracteres.</span></div>
+              <div class="field"><label for="business-description">Descrição</label><textarea id="business-description" rows="4" maxlength="180">Seu próximo banquete começa aqui. Peça, fale com a gente e acompanhe as novidades.</textarea><span class="field-hint"><span id="description-count">0</span>/180 caracteres</span></div>
+              <div class="editor-tip"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-info"></use></svg>Uma descrição curta ajuda a pessoa a entender o que encontra por aqui.</div>
+              <div class="profile-next"><button type="button" class="button secondary wide" data-open-links>Organizar meus links</button></div>
+            </div>
+            <div class="editor-panel" id="panel-links" role="tabpanel" aria-labelledby="tab-links" hidden><p class="panel-intro">Use os controles para mudar a ordem. Links desativados ficam fora da prévia.</p><div id="link-editor"></div><button type="button" class="add-link" id="add-link"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-plus"></use></svg>Adicionar link</button><p class="field-hint">Até 12 links nesta demonstração.</p></div>
+            <div class="editor-panel" id="panel-style" role="tabpanel" aria-labelledby="tab-style" hidden>
+              <fieldset class="style-fieldset"><legend>Cor de destaque</legend><div class="swatches"><label class="swatch swatch-blue" title="Azul"><input type="radio" name="accent" value="#2845D6" aria-label="Azul"><span></span></label><label class="swatch swatch-green" title="Verde"><input type="radio" name="accent" value="#096B62" aria-label="Verde"><span></span></label><label class="swatch swatch-violet" title="Violeta"><input type="radio" name="accent" value="#7A32A8" aria-label="Violeta"><span></span></label><label class="swatch swatch-terracotta" title="Terracota"><input type="radio" name="accent" value="#A83A20" aria-label="Terracota"><span></span></label><label class="swatch swatch-navy" title="Marinho"><input type="radio" name="accent" value="#182640" aria-label="Marinho"><span></span></label></div><div class="custom-color"><label for="custom-color">Sua cor</label><input type="color" id="custom-color" aria-label="Escolher uma cor personalizada"><span id="color-value"></span></div></fieldset>
+              <fieldset class="style-fieldset"><legend>Estilo dos botões</legend><div class="button-styles"><label><input type="radio" name="button-style" value="rounded"><span class="style-sample rounded">Arredondado</span></label><label><input type="radio" name="button-style" value="pill"><span class="style-sample pill">Pílula</span></label><label><input type="radio" name="button-style" value="outline"><span class="style-sample outline">Contorno</span></label></div></fieldset>
+              <div class="editor-tip"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-palette"></use></svg>A cor do texto se adapta à sua escolha para manter a leitura confortável.</div>
+            </div>
+            <div class="editor-footer"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"></use></svg>Alterações apenas nesta prévia</div>
+          </section>
+          <section class="preview-pane" aria-label="Prévia da sua página">
+            <div class="preview-toolbar"><span>Prévia em tempo real</span><div class="view-picker" role="group" aria-label="Formato da prévia"><button type="button" id="view-phone" data-view="phone" aria-pressed="true" aria-label="Visualizar em celular"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"></use></svg></button><button type="button" id="view-desktop" data-view="desktop" aria-pressed="false" aria-label="Visualizar em desktop"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-desktop"></use></svg></button></div></div>
+            <div class="preview-stage" id="preview-stage"><div class="device-frame phone-frame" id="device-frame"><div class="device-chrome"><span class="phone-top"><span>9:41</span><span aria-hidden="true">••• ▰</span></span><span class="browser-top"><i></i><i></i><i></i><span>Prévia local · sem URL pública</span></span></div>
+              <div id="live-preview" class="page-preview" data-style="rounded"><p class="preview-avatar" aria-hidden="true">BB</p><p class="preview-name">Bifrost Burger</p><p class="preview-description">Seu próximo banquete começa aqui. Peça, fale com a gente e acompanhe as novidades.</p><div class="preview-links"><a class="preview-link" href="https://bifrostburger.saipos.com/home" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-store"></use></svg><span><strong>Faça seu pedido</strong><small>Nosso cardápio na palma da mão</small></span></a><a class="preview-link" href="https://www.instagram.com/bifrostburger/" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-instagram"></use></svg><span><strong>Siga no Instagram</strong><small>Novidades que dão fome</small></span></a><a class="preview-link" href="https://wa.me/5511940822165" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-message"></use></svg><span><strong>Converse no WhatsApp</strong><small>Vamos ajudar você</small></span></a></div><p class="preview-brand"><span class="preview-signature">Feito com <strong>Vaynor</strong></span><span>Exemplo demonstrativo</span></p></div>
+              <div class="phone-bottom" aria-hidden="true"></div>
+            </div></div>
+            <p class="preview-note">Prévia local. Suas alterações não publicam uma página.</p><a class="button preview-cta" href="#demonstracao" data-convert>Guardar meu rascunho</a>
+          </section>
+        </div>
+        <p class="demo-disclaimer">Os links da Bifrost são destinos reais fornecidos para este exemplo. Os perfis profissional e criador são fictícios. Nenhum clique é registrado como evento de cliente.</p>
+      </div>
+    </section>
+
+    <section class="steps-section container" id="como-funciona" aria-labelledby="steps-title">
+      <div class="section-heading"><p class="eyebrow">DO SEU JEITO, EM TRÊS PASSOS</p><h2 id="steps-title">Uma ideia simples.<br>Um caminho mais fácil.</h2></div>
+      <div class="steps">
+        <article><span class="step-number">01</span><h3>Personalize</h3><p>Dê um nome à sua página e escolha as cores e o estilo que combinam com você.</p></article>
+        <article><span class="step-number">02</span><h3>Adicione seus canais</h3><p>Organize os destinos que mais importam: pedidos, contato, conteúdo ou serviços.</p></article>
+        <article><span class="step-number">03</span><h3>Guarde suas escolhas</h3><p>Baixe um rascunho com o nome, as cores e os links que você organizou.</p></article>
+      </div>
+    </section>
+
+    <section class="resources-section" id="recursos" aria-labelledby="resources-title">
+      <div class="container"><div class="section-heading"><p class="eyebrow">EXPLORE NESTA PRÉVIA</p><h2 id="resources-title">O essencial, bem organizado.</h2><p>Controles que você já pode experimentar neste hotsite.</p></div>
+        <div class="feature-grid">
+          <article><span class="feature-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-palette"></use></svg></span><h3>A sua identidade em primeiro lugar</h3><p>Experimente cores, nome, descrição e três estilos de botão, com resultado imediato.</p><span class="feature-status">Disponível nesta demonstração</span></article>
+          <article><span class="feature-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-links"></use></svg></span><h3>Cada canal no lugar certo</h3><p>Adicione, edite, reorganize ou esconda links para explorar uma página mais clara.</p><span class="feature-status">Disponível nesta demonstração</span></article>
+          <article><span class="feature-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-devices"></use></svg></span><h3>Uma página para cada tela</h3><p>Compare a composição em celular e desktop antes de decidir como apresentá-la.</p><span class="feature-status">Disponível nesta demonstração</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="segments-section container" aria-labelledby="segments-title">
+      <div class="section-heading"><p class="eyebrow">DIFERENTES NEGÓCIOS. A MESMA SIMPLICIDADE.</p><h2 id="segments-title">O seu próximo passo<br>tem muitos formatos.</h2></div>
+      <div class="segment-grid">
+        <article><div class="segment-top"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-store"></use></svg><span>Restaurantes</span></div><h3>Do desejo ao pedido.</h3><p>Cardápio, pedidos e atendimento juntos. Experimente com a Bifrost Burger.</p><button type="button" class="text-button" data-load-sample="restaurant">Experimentar este exemplo</button></article>
+        <article><div class="segment-top"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-briefcase"></use></svg><span>Profissionais e empresas</span></div><h3>Facilite o próximo contato.</h3><p>Apresente seus serviços, portfólio e canais de atendimento em um só lugar.</p><button type="button" class="text-button" data-load-sample="professional">Experimentar este exemplo</button></article>
+        <article><div class="segment-top"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-sparkles"></use></svg><span>Criadores</span></div><h3>Seu conteúdo, conectado.</h3><p>Dê espaço aos seus vídeos, redes sociais e projetos mais recentes.</p><button type="button" class="text-button" data-load-sample="creator">Experimentar este exemplo</button></article>
+      </div>
+    </section>
+
+    <section class="plans-section container" id="planos" aria-labelledby="plans-title">
+      <div class="section-heading"><p class="eyebrow">ESCOLHA SEU PRÓXIMO PASSO</p><h2 id="plans-title">Um plano para cada momento.</h2><p>Conheça os valores mensais e experimente sua página gratuitamente.</p></div>
+      <div class="plan-grid">
+        <article class="plan-card"><p class="plan-audience">Para começar</p><h3>Gratuito</h3><p class="plan-price">R$ 0,00</p><p class="plan-description">Conheça a experiência e descubra como reunir seus canais.</p><ul class="plan-features"><li>1 página</li><li>Até 5 links</li><li>Cores e estilos básicos</li><li>Selo “Feito com Vaynor”</li></ul><button type="button" class="button secondary wide" data-plan="starter" aria-label="Escolher Gratuito e experimentar a prévia">Escolher e experimentar</button></article>
+        <article class="plan-card"><p class="plan-audience">Para a sua marca</p><h3>Essencial</h3><p class="plan-price">R$ 14,90<span>/mês</span></p><p class="plan-description">Uma escolha para quem quer dar mais destaque à identidade do negócio.</p><ul class="plan-features"><li>1 página</li><li>Links ilimitados</li><li>Todas as cores e estilos de botão</li><li>Sem selo Vaynor</li></ul><button type="button" class="button secondary wide" data-plan="standard" aria-label="Escolher Essencial e experimentar a prévia">Escolher e experimentar</button></article>
+        <article class="plan-card"><p class="plan-audience">Para a sua empresa</p><h3>Negócios</h3><p class="plan-price">R$ 39,90<span>/mês</span></p><p class="plan-description">Uma escolha para negócios que buscam ampliar sua presença digital.</p><ul class="plan-features"><li>Tudo do Essencial</li><li>Domínio próprio</li><li>Várias páginas</li><li>Estatísticas de cliques</li><li>Suporte prioritário</li></ul><button type="button" class="button secondary wide" data-plan="business" aria-label="Escolher Negócios e experimentar a prévia">Escolher e experimentar</button></article>
+      </div>
+      <p class="plans-note">A demonstração é gratuita em qualquer escolha. Ela não cria uma conta, ativa uma assinatura ou realiza cobranças.</p>
+    </section>
+
+    <section class="faq-section container" id="perguntas" aria-labelledby="faq-title">
+      <div class="faq-intro"><p class="eyebrow">ANTES DO PRÓXIMO CLIQUE</p><h2 id="faq-title">Alguma dúvida?</h2><p>O que esta experiência faz, e como seguir.</p></div>
+      <div class="faqs">
+        <details><summary>Preciso me cadastrar para experimentar?<span class="faq-plus" aria-hidden="true">+</span></summary><p>Não. O editor funciona sem login. As alterações ficam apenas na memória desta página e são descartadas ao recarregar ou restaurar o exemplo.</p></details>
+        <details><summary>Minha página já fica publicada?<span class="faq-plus" aria-hidden="true">+</span></summary><p>Não. Esta é uma prévia local. Ela não cria uma URL pública, QR Code ou página no servidor. Você pode baixar um rascunho para guardar suas escolhas.</p></details>
+        <details><summary>A plataforma é só para restaurantes?<span class="faq-plus" aria-hidden="true">+</span></summary><p>A proposta atende negócios de diferentes segmentos, profissionais, empresas e criadores. A Bifrost Burger é o exemplo de restaurante; os outros perfis são fictícios.</p></details>
+        <details><summary>Os links são integrações com esses serviços?<span class="faq-plus" aria-hidden="true">+</span></summary><p>Não. Adicionar um destino como WhatsApp, Instagram ou pedidos apenas organiza um link. Isso não implica integração, sincronização ou parceria com esses serviços.</p></details>
+        <details><summary>Posso guardar o que personalizei?<span class="faq-plus" aria-hidden="true">+</span></summary><p>Sim. Use “Guardar meu rascunho” para baixar um arquivo com o nome, a descrição, as cores e os links da sua prévia. O download não publica uma página.</p></details>
+        <details><summary>Meus dados são enviados?<span class="faq-plus" aria-hidden="true">+</span></summary><p>Não. As alterações do editor ficam nesta página e o rascunho é preparado no seu navegador. A prévia não registra cliques nem envia seus dados para um servidor.</p></details>
+      </div>
+    </section>
+
+    <section class="final-section container" aria-labelledby="final-title">
+      <div><p class="eyebrow">UM LUGAR PARA TODOS OS SEUS CANAIS</p><h2 id="final-title">Veja o seu negócio em um só link.</h2><p>Experimente sua página, organize os canais e guarde as escolhas que combinam com o seu negócio.</p></div>
+      <button type="button" class="button" data-convert>Guardar meu rascunho</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#inicio" aria-label="Vaynor — início"><span class="brand-image"><img src="assets/img/logo.webp" alt="" width="1254" height="1254"></span></a><span>© 2026 Vaynor. Todos os direitos reservados.</span><a href="#demonstracao">Voltar à demonstração</a></div>
+  </footer>
+
+  <dialog id="interest-dialog" aria-labelledby="interest-title" aria-describedby="interest-note">
+    <div class="dialog-inner"><button type="button" class="icon-button close-dialog" aria-label="Fechar" data-close><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-close"></use></svg></button><span class="dialog-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-links"></use></svg></span><p class="eyebrow">SUAS ESCOLHAS, COM VOCÊ</p><h2 id="interest-title">Guarde seu rascunho.</h2><p id="interest-note">Baixe um arquivo com o nome, a descrição, as cores e os links que você organizou. Nenhum dado é enviado e nenhuma página é publicada.</p><div id="draft-summary" class="draft-summary"></div><button type="button" class="button wide" id="download-draft"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-download"></use></svg>Baixar meu rascunho</button><p id="draft-status" class="form-status" role="status" aria-live="polite"></p></div>
+  </dialog>
+  <div id="feedback" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript><p class="noscript">A demonstração interativa precisa de JavaScript. O conteúdo e as informações principais desta página continuam disponíveis.</p></noscript>
+</body>
+</html>
